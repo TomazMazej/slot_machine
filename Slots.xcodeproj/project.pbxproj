@@ -13,6 +13,7 @@
 		86875D0F25C5E2EB00B6D846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86875D0E25C5E2EB00B6D846 /* Assets.xcassets */; };
 		86875D1225C5E2EB00B6D846 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86875D1125C5E2EB00B6D846 /* Preview Assets.xcassets */; };
 		86875D1525C5E2EB00B6D846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86875D1325C5E2EB00B6D846 /* LaunchScreen.storyboard */; };
+		86DBA61125C5F67400BF3649 /* slotmachine.png in Resources */ = {isa = PBXBuildFile; fileRef = 86DBA61025C5F67400BF3649 /* slotmachine.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		86875D1125C5E2EB00B6D846 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		86875D1425C5E2EB00B6D846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86875D1625C5E2EB00B6D846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86DBA61025C5F67400BF3649 /* slotmachine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slotmachine.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		86875D0725C5E2E700B6D846 /* Slots */ = {
 			isa = PBXGroup;
 			children = (
+				86DBA60F25C5F63700BF3649 /* Screenshots */,
 				86875D0825C5E2E700B6D846 /* AppDelegate.swift */,
 				86875D0A25C5E2E700B6D846 /* SceneDelegate.swift */,
 				86875D0C25C5E2E700B6D846 /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				86875D1125C5E2EB00B6D846 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		86DBA60F25C5F63700BF3649 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				86DBA61025C5F67400BF3649 /* slotmachine.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86875D1525C5E2EB00B6D846 /* LaunchScreen.storyboard in Resources */,
+				86DBA61125C5F67400BF3649 /* slotmachine.png in Resources */,
 				86875D1225C5E2EB00B6D846 /* Preview Assets.xcassets in Resources */,
 				86875D0F25C5E2EB00B6D846 /* Assets.xcassets in Resources */,
 			);
