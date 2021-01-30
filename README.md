@@ -1,4 +1,4 @@
-# War Card Game
+# Slot Machine
 Simple slot machine app created for learning purposes.
 
 ## Usage and functions
