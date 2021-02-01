@@ -14,6 +14,7 @@
 		86875D1225C5E2EB00B6D846 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86875D1125C5E2EB00B6D846 /* Preview Assets.xcassets */; };
 		86875D1525C5E2EB00B6D846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86875D1325C5E2EB00B6D846 /* LaunchScreen.storyboard */; };
 		86DBA61125C5F67400BF3649 /* slotmachine.png in Resources */ = {isa = PBXBuildFile; fileRef = 86DBA61025C5F67400BF3649 /* slotmachine.png */; };
+		86EE06D525C86E3E00EF2F52 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EE06D425C86E3E00EF2F52 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		86875D1425C5E2EB00B6D846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86875D1625C5E2EB00B6D846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86DBA61025C5F67400BF3649 /* slotmachine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slotmachine.png; sourceTree = "<group>"; };
+		86EE06D425C86E3E00EF2F52 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				86875D0825C5E2E700B6D846 /* AppDelegate.swift */,
 				86875D0A25C5E2E700B6D846 /* SceneDelegate.swift */,
 				86875D0C25C5E2E700B6D846 /* ContentView.swift */,
+				86EE06D425C86E3E00EF2F52 /* CardView.swift */,
 				86875D0E25C5E2EB00B6D846 /* Assets.xcassets */,
 				86875D1325C5E2EB00B6D846 /* LaunchScreen.storyboard */,
 				86875D1625C5E2EB00B6D846 /* Info.plist */,
@@ -159,6 +162,7 @@
 			files = (
 				86875D0925C5E2E700B6D846 /* AppDelegate.swift in Sources */,
 				86875D0B25C5E2E700B6D846 /* SceneDelegate.swift in Sources */,
+				86EE06D525C86E3E00EF2F52 /* CardView.swift in Sources */,
 				86875D0D25C5E2E700B6D846 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
